@@ -18,3 +18,15 @@
 
 ## Geek
 1. [astaxie](https://github.com/astaxie)
+
+
+## Important
+1. 变量逃逸
+2. GPM模型
+3. 内存管理
+4. Goroutine调度
+5. 通道
+6. 闭包
+7. 接口、反射
+8. 测试
+9. 版本管理
