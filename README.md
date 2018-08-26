@@ -34,3 +34,7 @@
 ## Senior
 1. tmalloc内存管理
 2. GC 三色标记、写屏障
+
+## 编译
+1. go build -race 竟态检测
+2. go vet 语法检测
