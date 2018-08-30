@@ -38,3 +38,15 @@
 ## 编译
 1. go build -race 竟态检测
 2. go vet 语法检测
+
+## 重要区别
+1. 多CPU利用模型: 多进程->多线程->GPM
+    1. 通讯模型: 共享内存->锁->通道 sharig memory by communication 
+2. 网络模型
+    1. 多路复用+异步IO->Goroutine
+2. 编程模式
+    1. 接口式编程
+    2. 反射、内嵌等实现
+4. 内存管理
+    1. GC
+    2. 变量逃逸
