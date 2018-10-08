@@ -19,6 +19,25 @@
 ## Geek
 1. [astaxie](https://github.com/astaxie)
 
+## 微服务和Go语言应用
+微服务关心什么?
+1. 高可用
+    1. 负载均衡([seesaw](https://github.com/google/seesaw), [caddy](https://github.com/mholt/caddy))
+    2. 服务注册与发现([etcd](https://github.com/etcd-io/etcd), [consul](https://github.com/hashicorp/consul), [serf](https://github.com/hashicorp/serf))
+2. 易扩展
+    1. 应用无状态([tyk](), [fabio](), [valcand](), [traefik]())
+    2. 异步消息([NSQ](), [NATS]())
+    3. 标准接口([gRPC](), HTTP)
+3. 可实施
+    1. 入门容易
+    2. 部署方便(docker化)
+4. 易扩容
+    1. 分布式调度([k8s](), [swarm]())
+    2. 机器扩容
+5. 可追踪
+    1. 服务器监控/告警([Prometheus](), [open-falcon](), [grafana]())
+    2. 日志分析([Beats](), [Heka]())
+6. 微服务框架([beego](), [go-kit](), [go-micro](), [gin](), [iris]())
 
 ## Important
 1. 变量逃逸
